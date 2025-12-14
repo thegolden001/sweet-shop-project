@@ -1,151 +1,63 @@
-# Preego Digital India E-commerce Website
+# Sweet Shop Management System
 
-A modern, full-featured e-commerce website built with React, TypeScript, and Supabase for Preego Digital India Pvt Ltd.
+A full-stack web application developed to manage a sweet shop’s products, users, and orders efficiently.  
+This project demonstrates practical usage of modern web technologies with a clean separation of frontend and backend.
 
-## 🚀 Features
+---
 
-- **Modern React Architecture**: Built with React 18, TypeScript, and Vite
-- **Responsive Design**: Mobile-first design with Tailwind CSS
-- **User Authentication**: Secure sign-up/sign-in with Supabase Auth
-- **Product Catalog**: Browse products with filtering and search
-- **Shopping Cart**: Add/remove items with persistent storage
-- **Order Management**: Complete order processing system
-- **Database Integration**: Supabase PostgreSQL database
-- **Real-time Updates**: Live data synchronization
+## 🚀 Tech Stack
 
-## 🛠️ Tech Stack
+### Backend
+- Django
+- Django REST Framework
+- SQLite / MySQL
+- Python
 
-- **Frontend**: React 18, TypeScript, Tailwind CSS
-- **Backend**: Supabase (PostgreSQL, Auth, Real-time)
-- **Build Tool**: Vite
-- **Icons**: Lucide React
-- **State Management**: Zustand
-- **Routing**: React Router DOM
+### Frontend
+- React.js
+- Axios
+- HTML, CSS, JavaScript
+- npm
 
-## 📦 Installation
+### Tools & Platforms
+- Git & GitHub
+- VS Code
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd preego-ecommerce
-   ```
+---
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-3. **Set up environment variables**
-   Create a `.env` file in the root directory:
-   ```env
-   VITE_SUPABASE_URL=your_supabase_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-   ```
+- User authentication (Login & Registration)
+- Sweet products listing
+- Order placement functionality
+- Backend REST APIs
+- Frontend–backend integration using Axios
+- Modular and scalable project structure
 
-4. **Run the development server**
-   ```bash
-   npm run dev
-   ```
+---
 
-5. **Open your browser**
-   Navigate to `http://localhost:5173`
+## 📂 Project Structure
 
-## 🗄️ Database Setup
+sweet-shop-project/
+│
+├── backend/
+│ ├── manage.py
+│ ├── requirements.txt
+│ └── Django apps & settings
+│
+├── frontend/
+│ ├── package.json
+│ └── React components
+│
+└── README.md
 
-The project uses Supabase for the backend. Run the migration files to set up the database schema:
 
-1. Go to your Supabase dashboard
-2. Navigate to the SQL Editor
-3. Run the migration files in the `supabase/migrations` folder
+---
 
-## 📁 Project Structure
+## ⚙️ How to Run the Project Locally
 
-```
-src/
-├── components/          # Reusable UI components
-├── pages/              # Page components
-├── hooks/              # Custom React hooks
-├── services/           # API service functions
-├── store/              # State management
-├── types/              # TypeScript type definitions
-├── utils/              # Utility functions
-├── constants/          # Application constants
-└── data/               # Static data and mock data
-```
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/thegolden001/sweet-shop-project.git
+cd sweet-shop-project
 
-## 🎨 Styling
-
-This project uses Tailwind CSS for styling. The design follows modern e-commerce best practices with:
-
-- Clean, minimalist design
-- Consistent color scheme
-- Responsive breakpoints
-- Smooth animations and transitions
-- Accessible UI components
-
-## 🔧 Development
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-### VS Code Setup
-
-The project includes VS Code configuration for optimal development experience:
-
-- Recommended extensions
-- Auto-formatting on save
-- TypeScript and Tailwind CSS IntelliSense
-- ESLint integration
-
-## 🚀 Deployment
-
-1. **Build the project**
-   ```bash
-   npm run build
-   ```
-
-2. **Deploy to your hosting platform**
-   The `dist` folder contains the production build
-
-## 📱 Features Overview
-
-### User Features
-- Browse product catalog
-- Search and filter products
-- Add items to cart
-- User registration and login
-- Order placement and tracking
-- Responsive mobile experience
-
-### Admin Features (Future)
-- Product management
-- Order management
-- User management
-- Analytics dashboard
-
-## 🔒 Security
-
-- Secure authentication with Supabase Auth
-- Row Level Security (RLS) policies
-- Input validation and sanitization
-- HTTPS enforcement in production
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is proprietary software owned by Preego Digital India Pvt Ltd.
-
-## 📞 Support
-
-For support, email info@preegodigital.com or contact +91 98765 43210.
